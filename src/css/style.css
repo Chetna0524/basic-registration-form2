@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.box-form{
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:1px solid #ddd;
+    padding:20px;
+    text-align: center;
+}
+
+form{
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    border:1px solid #ddd;
+    padding: 10px 15px;
+    display: block;
+}
+
+label{
+    margin: 10px 0; 
+    display: inline-block;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
